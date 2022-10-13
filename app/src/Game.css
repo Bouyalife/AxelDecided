@@ -1,0 +1,32 @@
+.button {
+    background: oldlace;
+    min-height: 10vh;
+    min-width: 10vh;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow:2px 3px 5px black;
+}
+
+.button:disabled{
+    background: dark;
+    min-height: 10vh;
+    min-width: 10vh;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    -moz-box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black;
+    box-shadow:2px 3px 5px black;
+}
+
+.gameBody {
+    background-color: #282c34;
+    height: 100%;
+    box-shadow: 0 0 30px darkgray;
+}
+
+.roomheader{
+    color: white;
+}
